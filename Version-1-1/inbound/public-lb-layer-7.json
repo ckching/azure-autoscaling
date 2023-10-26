@@ -74,7 +74,9 @@
                 "name": "Standard"
               },
             "properties": {
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAddressVersion": "IPv4",
+                "publicIPAllocationMethod": "Static",
+                "idleTimeoutInMinutes": 4,
                 "dnsSettings": {
                     "domainNameLabel": "[parameters('publicIPAddressName')]"
                 }
