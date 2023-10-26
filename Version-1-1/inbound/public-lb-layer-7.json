@@ -70,6 +70,9 @@
             "apiVersion": "[variables('apiVersion')]",
             "type": "Microsoft.Network/publicIPAddresses",
             "location": "[resourceGroup().location]",
+            "sku": {
+                "name": "Standard"
+              },
             "properties": {
                 "publicIPAllocationMethod": "Dynamic",
                 "dnsSettings": {
