@@ -26,12 +26,11 @@
         "skuName": {
             "type": "string",
             "allowedValues": [
-                "Standard_v2",
                 "Standard_Small",
                 "Standard_Medium",
                 "Standard_Large"
             ],
-            "defaultValue": "Standard_v2",
+            "defaultValue": "Standard_Medium",
             "metadata": {
                 "description": "Sku Name"
             }

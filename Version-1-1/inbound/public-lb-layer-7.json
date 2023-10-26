@@ -90,8 +90,8 @@
             ],
             "properties": {
                 "sku": {
-                    "name": "[parameters('skuName')]",
-                    "tier": "Standard",
+                    "name": "Standard_v2",
+                    "tier": "Standard_v2",
                     "capacity": "[parameters('capacity')]"
                 },
                 "gatewayIPConfigurations": [
