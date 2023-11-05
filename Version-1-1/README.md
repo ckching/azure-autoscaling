@@ -15,7 +15,7 @@ independently scaling the VM-Series firewalls with the changing workloads.
 ***Please speak to your Palo Alto Networks resource for access to the Panorama plugin.***   
 - A Panorama virtual or physical appliance.  
 - Works with ***Panorama Plugin v1.0*** which is now GA. 
-- Also works with ***Panorama Plugin v2.0(Beta)*** [with added support for AKS](https://github.com/chicheongweng/azure-aks)
+- Also works with ***Panorama Plugin v2.0(Beta)*** [with added support for AKS](https://github.com/ckching/azure-aks)
 - A working Azure Service Principal.
 For information on setting up an Azure Service Princial [CLICK HERE](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal) 
 
@@ -37,33 +37,33 @@ user: pandemo pwd: Dem0pa$$w0rd
 
 **Training Videos**   
 - Intro 	***6:49***  [CLICK HERE](
-https://github.com/chicheongweng/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_1_Intro.mp4)  
+https://github.com/ckching/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_1_Intro.mp4)  
 - Service Principal	***2:59***  [CLICK HERE](
-https://github.com/chicheongweng/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_1_Service_Principal.mp4)  
+https://github.com/ckching/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_1_Service_Principal.mp4)  
 - Infra 	***4:44***  [CLICK HERE](
-https://github.com/chicheongweng/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_2_Infra.mp4)    
+https://github.com/ckching/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_2_Infra.mp4)    
 - Inbound 	***13:04***  [CLICK HERE](
-https://github.com/chicheongweng/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_3_Inbound.mp4)    
+https://github.com/ckching/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_3_Inbound.mp4)    
 - Hub 		***5:24***  [CLICK HERE](
-https://github.com/chicheongweng/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_4_Hub.mp4)    
+https://github.com/ckching/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_4_Hub.mp4)    
 - App		***9:21***  [CLICK HERE](
-https://github.com/chicheongweng/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_5_App.mp4) 
+https://github.com/ckching/azure-autoscaling/raw/master/Version-1-1/videos/AutoScale1-0_5_App.mp4) 
 
 
 
 # Deploy Buttons   
 
 ***Infra Deployment***   
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchicheongweng%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Finfra%2FazureDeploy.json)   
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fckching%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Finfra%2FazureDeploy.json)   
 
 ***Inbound Deployment***  
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchicheongweng%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Finbound%2FazureDeploy.json)  
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fckching%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Finbound%2FazureDeploy.json)  
 
 ***Hub Deployment***  
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchicheongweng%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Fhub%2FazureDeploy.json)
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fckching%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Fhub%2FazureDeploy.json)
 
 ***App Deployment***  
-[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fchicheongweng%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Fapp%2FazureDeploy.json)
+[<img src="http://azuredeploy.net/deploybutton.png"/>](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fckching%2Fazure-autoscaling%2Fmaster%2FVersion-1-1%2Fapp%2FazureDeploy.json)
 
 
 # Support Policy
