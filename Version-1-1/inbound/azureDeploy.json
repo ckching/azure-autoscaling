@@ -386,6 +386,7 @@
             }
         },
         {
+            "condition": "[equals(parameters('deployIntoExistingVnet'), 'Yes')]",
             "name": "SetupVNET",
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2015-01-01",
@@ -446,9 +447,6 @@
             "name": "SetupPublicLoadBalancer",
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2015-01-01",
-            "dependsOn": [
-                "Microsoft.Resources/deployments/SetupVNET"
-            ],
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
@@ -551,7 +549,6 @@
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2015-01-01",
             "dependsOn": [
-                "Microsoft.Resources/deployments/SetupVNET",
                 "Microsoft.Resources/deployments/SetupPublicLoadBalancer"
             ],
             "properties": {
