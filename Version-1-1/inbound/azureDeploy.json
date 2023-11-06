@@ -254,7 +254,7 @@
         "MgmtSubnetName" : "[concat(parameters('virtualNetworkName'), '')]",
         "untrustedSubnetName" : "[concat(parameters('virtualNetworkName'), '')]",
         "trustedSubnetName" : "[concat(parameters('virtualNetworkName'), '')]",
-        "appGatewaySubnetName" : "[concat(parameters('virtualNetworkName'), '-appgw-subnet')]",
+        "appGatewaySubnetName" : "[concat(parameters('virtualNetworkName'), '')]",
         "LoadBalancerType" : "layer-7",
         "firewallVmCount" : 2,
         "baseUrl" : "https://raw.githubusercontent.com/ckching/azure-autoscaling/master/Version-1-1/inbound",
