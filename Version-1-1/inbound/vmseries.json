@@ -330,7 +330,8 @@
                         }]
                     }
                 }
-            }
+            },
+            "zones" : ["1","2","3"]
         },
         {
             "type": "microsoft.insights/autoscalesettings",
