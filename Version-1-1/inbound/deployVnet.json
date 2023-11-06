@@ -157,7 +157,7 @@
             }
         },
         {
-            "condition": "[equals(parameters('deployIntoExistingVnet'), 'Yes')]",
+            "condition": "[equals(parameters('deployIntoExistingVnet'), 'No')]",
             "apiVersion": "2018-04-01",
             "type": "Microsoft.Network/virtualNetworks/subnets",
             "name": "[concat(variables('vnetname'), '/', parameters('subnet0Name'))]",
@@ -170,7 +170,7 @@
             }
         },
         {
-            "condition": "[equals(parameters('deployIntoExistingVnet'), 'Yes')]",
+            "condition": "[equals(parameters('deployIntoExistingVnet'), 'No')]",
             "apiVersion": "2018-04-01",
             "type": "Microsoft.Network/virtualNetworks/subnets",
             "name": "[concat(variables('vnetname'), '/', parameters('subnet1Name'))]",
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "condition": "[equals(parameters('deployIntoExistingVnet'), 'Yes')]",
+            "condition": "[equals(parameters('deployIntoExistingVnet'), 'No')]",
             "apiVersion": "2018-04-01",
             "type": "Microsoft.Network/virtualNetworks/subnets",
             "name": "[concat(variables('vnetname'), '/', parameters('subnet2Name'))]",
