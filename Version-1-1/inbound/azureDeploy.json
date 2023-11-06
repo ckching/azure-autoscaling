@@ -494,7 +494,7 @@
                             "privateIPAddress": "[parameters('fwLoadBalancerIP')]",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworkName'), variables('untrustedSubnetName'))]"
+                                "id": "['/subscriptions/654bcd4a-22a2-49d1-a26c-a77710ff1423/resourceGroups/LZ_PRO_HKG_RV1_RG/providers/Microsoft.Network/virtualNetworks/LZ_PRO_HKG_RV1_VNET1_56/subnets/LZ_PRO_HKG_RV1_ILB_1_SUBNET']"
                             }
                         }
                     }
